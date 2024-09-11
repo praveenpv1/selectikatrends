@@ -25,7 +25,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/feed_posts', feed_posts_routes);
+app.use('/', feed_posts_routes);
 
 app.use((req, res, next) => {
     const err = new Error('Not Found!');
