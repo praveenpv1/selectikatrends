@@ -5,7 +5,7 @@ const router = express.Router();
 const feed_posts = require('../Controllers/feed_posts.controller');
 
 router
-  .route()
+  .route('/')
   .get(feed_posts.getdata)
 //   .post(feed_posts)
 //   .patch(feed_posts)
