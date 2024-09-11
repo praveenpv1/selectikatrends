@@ -1,6 +1,6 @@
 {
     "env": {
-      "PORT": 5001,
+      "PORT": 3000,
       "DB": "feed_database",
       "DBCONNECTIONSTRING": "mongodb+srv://trends:jXy45wo0259D@trends.i33nk.mongodb.net/"
     }
